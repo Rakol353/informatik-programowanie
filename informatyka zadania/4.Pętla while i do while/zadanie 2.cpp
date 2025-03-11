@@ -6,7 +6,7 @@ int main() {
     int suma = 0;
     int i = 1;
 
-    cout << "Podaj liczbę N: ";
+    cout << "Podaj liczbe N: ";
     cin >> N;
 
     while (i <= N) {
