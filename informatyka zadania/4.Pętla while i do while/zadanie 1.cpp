@@ -7,9 +7,12 @@ int main() {
     cout << "Podaj liczbę N: ";
     cin >> N;
 
+    int liczba = 2;
+
     cout << "Liczby parzyste od 2 do " << N << ": " << endl;
-    for (int liczba = 2; liczba <= N; liczba += 2) {
+    while (liczba <= N) {
         cout << liczba << endl;
+        liczba += 2;
     }
 
     return 0;
