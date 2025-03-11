@@ -31,10 +31,10 @@ int main() {
             }
             break;
         default:
-            cout << "Nieprawid³owa liczba" << std::endl;
+            cout << "NieprawidÂ³owa liczba" << std::endl;
             return 1; 
     }
 
-    std::cout << "Wynik: " << wynik << std::endl;
+    cout << "Wynik: " << wynik << std::endl;
     return 0;
 }
