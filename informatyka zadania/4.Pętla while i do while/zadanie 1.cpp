@@ -1,23 +1,16 @@
 #include <iostream>
 using namespace std;
- 
+
 int main() {
     int N;
- 
-    cout << "Podaj liczbe calkowita dodatnia N: ";
+
+    cout << "Podaj liczbę N: ";
     cin >> N;
- 
-    if (N < 2) {
-        cout << "N musi byc wieksze lub rowne 2!" << endl;
-        return 1; 
+
+    cout << "Liczby parzyste od 2 do " << N << ": " << endl;
+    for (int liczba = 2; liczba <= N; liczba += 2) {
+        cout << liczba << endl;
     }
- 
-    int i = 2; 
-    while (i <= N) {
-        cout << i << " "; 
-        i += 2; 
-    }
- 
-    cout << endl;
+
     return 0;
 }
